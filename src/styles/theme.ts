@@ -8,8 +8,8 @@ const color = {
 }
 
 const font = {
-  display: 'Montserrat Alternates',
-  text: 'Montserrat',
+  display: 'Merriwheater',
+  text: 'Merriwheater',
 }
 
 const tileColors = [

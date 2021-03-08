@@ -39,7 +39,7 @@ const GlobalStyle = createGlobalStyle<GlobalProps>`
   }
 
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', sans-serif;
   }
 
   * {
@@ -51,7 +51,7 @@ const GlobalStyle = createGlobalStyle<GlobalProps>`
   }
 
   p {
-    font-family: Montserrat, sans-serif;
+    font-family: Merriweather, sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.4em;
@@ -70,7 +70,7 @@ const GlobalStyle = createGlobalStyle<GlobalProps>`
   h1, h2, h3 {
     margin: 60px 0 30px 0;
     padding: 0;
-    font-family: 'Montserrat Alternates', 'Montserrat', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-weight: 700;
   }
 
@@ -147,7 +147,7 @@ const GlobalStyle = createGlobalStyle<GlobalProps>`
       padding-right: 15px;
     }
     margin-top: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-style: italic;
   }

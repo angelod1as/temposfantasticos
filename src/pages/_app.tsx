@@ -29,7 +29,7 @@ function FirstHead() {
       <link rel="icon" href="/favicon.ico" />
       {/* <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" /> */}
       {/* <link rel="apple-touch-icon" href="/apple.png" /> */}
-      {/* <link rel="manifest" href="/manifest.webmanifest"></link> */}
+      <link rel="manifest" href="/manifest.webmanifest"></link>
       {/* META */}
       {/* Primary Meta Tags */}
       <title key="title">Tempos Fantásticos</title>
