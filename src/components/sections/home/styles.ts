@@ -25,7 +25,6 @@ export const TextWrapper = styled.div`
   max-width: 500px;
   a {
     color: ${color};
-    word-break: break-all;
   }
   @media (min-width: 500px) {
     padding: 50px;
@@ -53,4 +52,28 @@ export const SvgWrapper = styled.div`
   @media (min-width: 500px) {
     margin: 50px 0 0 0;
   }
+`
+
+export const ButtonLink = styled.a`
+  margin-top: 15px;
+  margin-bottom: 30px;
+  button {
+    min-width: 250px;
+    max-width: 250px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    padding: 20px 10px;
+    background-color: ${color};
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0px -1px rgba(0, 0, 0, 1);
+    &:hover {
+      box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 1);
+    }
+  }
+`
+
+export const URL = styled.a`
+  word-break: break-all;
 `

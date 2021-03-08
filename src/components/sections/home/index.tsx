@@ -1,4 +1,11 @@
-import { HomeWrapper, ImgWrapper, TextWrapper, SvgWrapper } from './styles'
+import {
+  HomeWrapper,
+  ImgWrapper,
+  TextWrapper,
+  SvgWrapper,
+  ButtonLink,
+  URL,
+} from './styles'
 import Image from 'next/image'
 
 export default function Home() {
@@ -21,27 +28,27 @@ export default function Home() {
           2000 né?)
         </p>
         <p>
-          Se você quiser baixar qualquer edição do <b>TF</b>, é só clicar{' '}
-          <a
-            href="https://drive.google.com/drive/folders/1JQUOdHIGPVn1X1u4lEcTWTjR78AVFsLu?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            aqui
-          </a>
-          . Você vai ver uma pasta do Drive com todas as edições em PDF pra você
-          ler com tranquilidade
+          Se você quiser baixar qualquer edição do <b>TF</b>, é só clicar
+          abaixo. Você vai ver uma pasta do Drive com todas as edições em PDF
+          pra você ler com tranquilidade
         </p>
+        <ButtonLink
+          href="https://drive.google.com/drive/folders/1JQUOdHIGPVn1X1u4lEcTWTjR78AVFsLu?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>Baixar</button>
+        </ButtonLink>
         <p>
           Versões impressas? Ainda temos mas evitamos enviar por conta da
           pandemia. Envie um email para{' '}
-          <a
+          <URL
             href="mailto:temposfantasticos@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
             temposfantasticos@gmail.com
-          </a>{' '}
+          </URL>{' '}
           que a gente conversa sobre.
         </p>
         {/* LOGO */}
