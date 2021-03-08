@@ -9,7 +9,6 @@
     "lint": "eslint --fix .",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "type": "contentful-typescript-codegen --output ./src/@types/generated/contentful.d.ts"
-
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.2",
@@ -31,6 +30,7 @@
     "react-i18next": "^11.8.5",
     "react-icons": "^4.1.0",
     "react-responsive-embed": "^2.1.0",
+    "react-reveal": "^1.2.2",
     "remarkable": "^2.0.1",
     "styled-components": "^5.2.1",
     "styled-normalize": "^8.0.7",

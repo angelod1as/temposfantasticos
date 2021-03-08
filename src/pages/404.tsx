@@ -1,13 +1,10 @@
-import Button from '@components/atoms/Button'
 import styled from 'styled-components'
 
 export default function Custom404() {
+  // TODO: 404
   return (
     <Wrapper>
       <div>Page not found</div>
-      <Button inverted to="/">
-        Clique para voltar
-      </Button>
     </Wrapper>
   )
 }

@@ -1,7 +1,9 @@
+import Home from '@sections/home'
+
 export default function Index() {
   return (
     <>
-      <div>Tempos Fantásticos</div>
+      <Home />
     </>
   )
 }
