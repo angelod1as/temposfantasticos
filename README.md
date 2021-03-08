@@ -1,24 +1,10 @@
-# Angelo Dias's portfolio.	
+# Tempos Fantásticos
 
 ## Description	
 
-The [website](https://angelodias.com.br) is self explanatory. 	
+TF's new website (under construction, very much year 2000)
 
-There's even a [colophon](https://www.angelodias.com.br/about).	
-
-![Website screen](https://res.cloudinary.com/angelodias/image/upload/v1609026400/portfolio/tiles/readme_nfjxc9.png)	
-
-Made using Typescript, React, [Next.js](https://nextjs.org/), [Vercel](https://vercel.com), VS Code, and more. See [here](https://www.angelodias.com.br/about/).	
-
-## Like what you see?	
-
-I'm open for hire.	
-
-JS, TS, React, Redux, and more. Hit me on [oiangelodias\[at\]gmail.com](mailto:oiangelodias@gmail.com).	
-
-## I want to clone this repo!	
-
-Nice, you can do it. Just PLEASE let me know. It took a while to figure out this design and I really like it.	
+## Development
 
 Clone, `yarn` then `yarn dev`
 
