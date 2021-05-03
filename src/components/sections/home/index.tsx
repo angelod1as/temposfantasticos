@@ -52,6 +52,12 @@ export default function Home() {
         width={1200}
         height={850}
       />
+      <Image
+        src="/images/Jennings-TF-Temp_08.png"
+        alt=""
+        width={1200}
+        height={464}
+      />
     </HomeWrapper>
   )
 }
