@@ -1,15 +1,4 @@
-module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/projects',
-        destination: '/',
-        permanent: true,
-      },
-    ]
-  },
-  i18n: {
-    locales: ['en', 'pt'],
-    defaultLocale: 'en',
-  },
-}
+/** @type {import('next').NextConfig} */
+const nextConfig = {}
+
+module.exports = nextConfig
