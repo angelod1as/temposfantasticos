@@ -1,7 +1,5 @@
 "use client"
 
-// TODO: Turn into Server Component
-
 import { useState } from "react"
 
 type FormElements = HTMLFormControlsCollection & {
