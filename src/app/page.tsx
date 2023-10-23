@@ -1,9 +1,9 @@
-export default function Home() {
+import { Home } from "./home/Home"
+
+export default function Index() {
   return (
     <main>
-      <div>
-        <p className="font-merriweather">Tempos 2</p>
-      </div>
+      <Home />
     </main>
-  );
+  )
 }
