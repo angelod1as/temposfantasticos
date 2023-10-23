@@ -2,11 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .flex-center {
+    @apply flex flex-col items-center justify-center;
+  }
+}
+
 :root {
   --font-merriweather: "Merriweather";
   --font-montserrat: "Montserrat";
 }
 
 html {
-  @apply font-sans;
+  @apply font-serif flex flex-col justify-center items-center text-xl;
+}
+
+main {
+  @apply max-w-screen-md py-8 px-4;
+}
+
+h1 {
+  @apply text-5xl w-full;
+}
+
+h2 {
+  @apply text-3xl w-full font-bold;
+}
+
+p {
+  @apply w-full;
 }
