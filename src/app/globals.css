@@ -13,22 +13,18 @@
   --font-montserrat: "Montserrat";
 }
 
-html {
-  @apply font-serif flex flex-col justify-center items-center text-xl;
-}
-
-main {
-  @apply max-w-screen-md py-8 px-4;
-}
-
 h1 {
   @apply text-5xl w-full;
 }
 
 h2 {
-  @apply text-3xl w-full font-bold;
+  @apply text-3xl w-full font-bold mt-8;
 }
 
 p {
   @apply w-full;
+}
+
+b {
+  font-weight: 900;
 }

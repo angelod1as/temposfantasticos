@@ -2,7 +2,7 @@ import { Home } from "./home/Home"
 
 export default function Index() {
   return (
-    <main>
+    <main className="max-w-screen-md">
       <Home />
     </main>
   )
