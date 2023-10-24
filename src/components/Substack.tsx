@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { Button } from "./Button"
 
 type FormElements = HTMLFormControlsCollection & {
   email: HTMLInputElement
@@ -81,22 +82,19 @@ export const Substack = () => {
     setErrors([])
   }
 
-  if (loading) return <div>Loading...</div>
+  if (loading) return <div>Carregando...</div>
 
   if (success) {
     return (
       <div>
-        <h2>Thanks for subscribing</h2>
-
-        <p className={"mb-4"}>
-          Please confirm your subscription in your email 😎
-        </p>
+        <b>Obrigado pela inscrição!</b>
+        <p className="mb-4">Por favor confirme sua inscrição no seu email 😎</p>
       </div>
     )
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="w-full">
       <div className="flex flex-col gap-y-2 sm:flex-row sm:items-center sm:gap-x-4">
         <label htmlFor="email" className="flex-1 block w-full">
           Email:
@@ -106,8 +104,9 @@ export const Substack = () => {
             type="email"
             defaultValue=""
             name="email"
-            className="w-full"
+            className="w-full px-2 py-1 rounded border-white border bg-black"
             placeholder="mrspock@enterprise.com"
+            required
             onClick={removeError}
           />
           {/* Avoid spam by adding a hidden field that can only be reached by machines */}
@@ -120,12 +119,12 @@ export const Substack = () => {
             aria-hidden="true"
           />
         </div>
-        <input type="submit" value="Subscribe" name="subscribe" className="" />
+        <Button type="submit">Bora!</Button>
       </div>
       {errors.length > 0 && (
         <div className="mt-2 text-sm">
           <p className="mt-2 mb-0 text-sm font-bold text-red">
-            Bzz Bzz! Error! Error!
+            Bzz Bzz! Erro! Erro!
           </p>
           <ul>
             {errors.map((error, index) => {
