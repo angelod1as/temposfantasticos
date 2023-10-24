@@ -1,78 +1,32 @@
 {
-  "name": "portfolio-next",
+  "name": "temposfantasticos",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --fix .",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "type": "contentful-typescript-codegen --output ./src/@types/generated/contentful.d.ts"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@contentful/rich-text-react-renderer": "^14.1.2",
-    "@contentful/rich-text-types": "^14.1.2",
-    "@typescript-eslint/eslint-plugin": "^4.12.0",
-    "contentful": "^8.1.6",
-    "contentful-management": "^7.3.0",
-    "contentful-typescript-codegen": "^3.2.1",
-    "dotenv": "^8.2.0",
-    "eslint-plugin-standard": "^5.0.0",
-    "gray-matter": "^4.0.2",
-    "highlight.js": "^10.4.1",
-    "html-react-parser": "^1.1.1",
-    "i18next": "^19.8.4",
-    "nanoid": "^3.1.20",
-    "next": "^10.0.4",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-i18next": "^11.8.5",
-    "react-icons": "^4.1.0",
-    "react-responsive-embed": "^2.1.0",
-    "react-reveal": "^1.2.2",
-    "remarkable": "^2.0.1",
-    "styled-components": "^5.2.1",
-    "styled-normalize": "^8.0.7",
-    "styled-reset": "^4.3.1",
-    "tsconfig-paths-webpack-plugin": "^3.3.0",
-    "uuid": "^8.3.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "./**/*.{js,jsx,ts,tsx}": [
-      "eslint --fix"
-    ]
+    "clsx": "^2.0.0",
+    "next": "13.5.6",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@types/highlight.js": "^10.1.0",
-    "@types/node": "^14.14.20",
-    "@types/react": "^17.0.0",
-    "@types/styled-components": "^5.1.4",
-    "@types/uuid": "^8.3.0",
-    "@typescript-eslint/parser": "^4.16.1",
-    "babel-loader": "^8.2.2",
-    "babel-plugin-styled-components": "^1.12.0",
-    "eslint": "^7.17.0",
-    "eslint-config-prettier": "^7.1.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-config-standard-with-typescript": "^19.0.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.5.1",
-    "prettier": "^2.2.0",
-    "typescript": "^4.1.2"
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "postcss": "^8",
+    "prettier": "^3.0.3",
+    "tailwindcss": "^3",
+    "typescript": "^5"
   }
 }

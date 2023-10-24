@@ -1,15 +1,13 @@
-module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/projects',
-        destination: '/',
-        permanent: true,
-      },
-    ]
-  },
-  i18n: {
-    locales: ['en', 'pt'],
-    defaultLocale: 'en',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/i,
+      use: ["@svgr/webpack"],
+    })
+
+    return config
   },
 }
+
+module.exports = nextConfig

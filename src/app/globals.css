@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .flex-center {
+    @apply flex flex-col items-center justify-center;
+  }
+}
+
+:root {
+  --font-merriweather: "Merriweather";
+  --font-montserrat: "Montserrat";
+}
+
+h1 {
+  @apply text-5xl w-full;
+}
+
+h2 {
+  @apply text-3xl w-full font-bold mt-8;
+}
+
+p {
+  @apply w-full;
+}
+
+b {
+  font-weight: 900;
+}
