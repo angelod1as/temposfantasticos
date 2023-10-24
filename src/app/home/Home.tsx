@@ -1,7 +1,6 @@
 import { Link } from "@/components/Link"
 import { Logo } from "@/components/Logo"
 import { Newspapers } from "@/components/Newspapers"
-import { Separator } from "@/components/Separator"
 import { SubstackIframe } from "@/components/SubstackIframe"
 import { TF } from "@/components/TF"
 import React from "react"
