@@ -39,8 +39,8 @@ export default function RootLayout({
         "font-serif flex flex-col justify-center items-center text-xl",
       )}
     >
-      <body className="flex flex-col justify-center items-center bg-black text-white pt-10 pb-16 px-4">
-        {children}
+      <body className="w-full flex flex-col justify-center items-center bg-black text-white max-w-full">
+        <div className="max-w-full w-full">{children}</div>
       </body>
     </html>
   )
