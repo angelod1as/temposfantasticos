@@ -9,7 +9,7 @@ type LinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
 
 export const Link: FCC<LinkProps> = (props) => {
   const { to, children, className, ...rest } = props
-  const styles = clsx(className, "underline text-purple-500")
+  const styles = clsx(className, "underline text-inherit hover:text-purple-500")
 
   if (to.startsWith("http")) {
     return (
