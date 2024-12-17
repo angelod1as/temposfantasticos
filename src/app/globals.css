@@ -28,3 +28,34 @@ p {
 b {
   font-weight: 900;
 }
+
+a {
+}
+
+::-moz-selection {
+  /* FIREFOX */
+  @apply bg-purple-500;
+}
+
+::selection {
+  @apply bg-purple-500;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  animation: slide 20s linear infinite;
+}
+
+@media (max-width: 640px) {
+  .animate-slide {
+    animation: slide 5s linear infinite; /* Faster speed on mobile */
+  }
+}
